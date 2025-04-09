@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & Mineral Shop</title>
+    <h1></h1>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #fff;  /* Change text color to white for better contrast */
+        }
+    
+        h1 {
+            text-align: center;
+            color: #f39c12;  /* Gold color for desert vibe */
+            margin-bottom: 40px;
+        }
+    
+        #inventory {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+    
+        .item {
+            background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+    
+        .item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+        }
+    
+        .item h2 {
+            margin-top: 0;
+            font-size: 1.5em;
+            color: #d35400;  /* Desert-themed color */
+        }
+    
+        .item p {
+            margin: 8px 0;
+            font-size: 0.95em;
+        }
+    
+        .price {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #e67e22;  /* Slightly lighter color for price */
+        }
+    
+        /* Desert background */
+        .iholder {
+            width: 100%;
+            height: 300vh;
+            background-image: url('https://wallpapercrafter.com/desktop7/1836974-california-clouds-Death-Valley-Desert-Dune-landscape.jpg');
+            background-size: cover;
+            background-position: center center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1; /* Send the image to the background */
+            footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            margin-top: auto; /* Push footer to the bottom of the page */
+            width: 100%;
+        }
+        
+    </style>
+    <a href="https://www.facebook.com/john.frankovich.77" target="_blank">
+        <img src="https://static.vecteezy.com/system/resources/previews/018/930/698/original/facebook-logo-facebook-icon-transparent-free-png.png" 
+             alt="Facebook Logo" 
+             style="width: 100px; height: auto; border-radius: 5px;">
+    </a>
+
+    <a href="https://www.youtube.com/shorts/uoenfJSo3wg" target="_blank">
+        <img src="images.jpg/youtube-logo-png-46026.png"
+             alt="YouTube Logo" 
+             style="width: 100px; height: auto; border-radius: 5px; padding-top: -100px;">
+    </a>
+
+    
+</a>
+    
+    
+
+    <h1 style="font-size: 3em; font-weight: bold; text-align: center; color: #f39c12;">
+        Running Rock -- Rough cut rocks and fine jewelry
+    </h1>
+    
+</head>
+<body>
+
+    <!-- Background Image -->
+    <div class="iholder"></div>
+
+    <p style="font-size: 1.2em; line-height: 1.6; color: #f5deb3; margin: 20px auto; max-width: 800px; padding: 10px; background-color: rgba(0, 0, 0, 0.5); border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        As a proud Coast Guard veteran who served from 1978 to 1984, life recently took an unexpected turn with a diagnosis of metastatic cancer. Doctors estimate I may have 10 months to three years, but rather than focus on the clock, the focus now is on meaning. Sharing the natural beauty of the Earth through gems, minerals, and crystals has become more than a business — it is a purpose. Each stone is a reminder of resilience, wonder, and the time we are given to connect with something deeper. Currently, I draw inspiration from the stunning Anza Borrego Desert in California, where the power and beauty of nature constantly remind me of the importance of each moment.
+    </p>
+    
+
+
+    <!-- Header Section -->
+    <h1>Welcome to Our Rock & Mineral Shop!</h1>
+
+    <!-- Inventory Section -->
+    <div id="inventory">
+        <!-- Item 1 -->
+        <div class="item">
+            <h2>Petrified Wood</h2>
+            <img src="images.jpg/petrified_wood.jpg" alt="Petrified Wood" style="width: 100%; height: auto; border-radius: 8px;">
+            <p></p>
+            <p class="price">$12.99</p>
+        </div>
+
+        <div class="item">
+            <h2>Opalized Coral</h2>
+            <img src="images.jpg/opalized_coral.jpg" alt="Opalized Coral" style="width: 100%; height: auto; border-radius: 8px;">
+            <p></p>
+            <p class="price">$12.99</p>
+        </div>
+
+        <div class="item">
+            <h2>Fossils</h2>
+            <img src="images.jpg/fossils.jpg" alt="Fossils" style="width: 100%; height: auto; border-radius: 8px;">
+            <p></p>
+            <p class="price">$19.99</p>
+        </div>
+        
+        <div class="item">
+            <h2>Collection</h2>
+            <img src="images.jpg/collection.jpg" alt="Collection" style="width: 100%; height: auto; border-radius: 8px;">
+            <p>B</p>
+            <p class="price">$19.99</p>
+        </div>
+
+        <div class="item">
+            <h2>Amethyst</h2>
+            <img src="" alt="Amethist" style="width: 100%; height: auto; border-radius: 8px;">
+            <p>A beautiful purple quartz known for its calming properties.</p>
+            <p class="price">$14.99</p>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="item">
+            <h2>Rose Quartz</h2>
+            <img src="" alt="Rose Quartz" style="width: 100%; height: auto; border-radius: 8px;">
+            <p>A gentle pink crystal symbolizing love and peace.</p>
+            <p class="price">$9.99</p>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="item">
+            <h2>Obsidian</h2>
+            <img src="" alt="Obsidian" style="width: 100%; height: auto; border-radius: 8px;">
+            <p>Black volcanic glass known for its protective properties.</p>
+            <p class="price">$19.99</p>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="item">
+            <h2>Jasper</h2>
+            <img src="" alt="Jasper" style="width: 100%; height: auto; border-radius: 8px;">
+            <p>Known as the "supreme nurturer," a stone of stability.</p>
+            <p class="price">$12.99</p>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="item">
+            <h2>Turquoise</h2>
+            <img src="" alt="Turquoise" style="width: 100%; height: auto; border-radius: 8px;">
+            <p>A beautiful blue-green stone valued for its spiritual properties.</p>
+            <p class="price">$24.99</p>
+        </div>
+        
+    </div>
+    
+    <!-- Footer Section with Copyright -->
+    <footer>
+        <p>&copy; 2025 Melissa Ann Tanksley. All rights reserved.</p>
+    </footer>
+</body>
+</html>
